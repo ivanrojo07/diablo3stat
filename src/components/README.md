@@ -1,0 +1,1 @@
+/componets: Aquí estarán los componentes reusables de nuestra aplicación. Piensa por ejemplo, en un componente loading que podrá ser usado varias veces a lo largo de la app.

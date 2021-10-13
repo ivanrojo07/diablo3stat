@@ -1,0 +1,1 @@
+/assets: En esta carpeta tendremos archivos CSS globales e imágenes, es decir, contenido estático.

@@ -1,0 +1,1 @@
+/layouts: Los layouts de nuestra app. Serán la estructura base sobre la que inyectaremos nuestras vistas. Suelen tener el header-bar y el footer común a toda la app.

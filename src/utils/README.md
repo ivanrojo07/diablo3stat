@@ -1,0 +1,1 @@
+/utils: Carpeta con funciones generales o que no tienen una temática definida. No es conveniente abusar de esto. Si tienes mucho contenido aquí quiere decir que deberías agrupar funcionalidades en otro directorio.

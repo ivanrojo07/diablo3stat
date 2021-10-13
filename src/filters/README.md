@@ -1,0 +1,1 @@
+/filters: Dentro de esta carpeta estarán los filtros que usaremos para darle formato a los datos de nuestra vista.

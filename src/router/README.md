@@ -1,0 +1,1 @@
+/router: Controlaremos las rutas de nuestra aplicación desde aquí.

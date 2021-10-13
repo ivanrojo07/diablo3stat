@@ -1,0 +1,1 @@
+/views: Aquí estarán todas las vistas de nuestra aplicación. Hay que recordar que, en Vue, todo son componentes, y, en este caso, dichos componentes hacen de vistas de nuestra aplicación.

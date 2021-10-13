@@ -1,0 +1,1 @@
+/directives: Las directivas personalizadas que hagas estarán aquí. Ejemplos de directivas en vue son: v-if, v-for, etc. Cuando creemos una directiva personalizada, la alojaremos en esta carpeta.

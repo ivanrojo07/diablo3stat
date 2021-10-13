@@ -1,0 +1,1 @@
+/mixins: Los mixins (fragmentos de código reusable por nuestros componentes) los encuentras en esta carpeta.
