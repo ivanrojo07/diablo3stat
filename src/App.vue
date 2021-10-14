@@ -14,6 +14,7 @@
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
   text-align center
-  color #2c3e50
+  color #ffffff //le ponemos un color blanco
+  background-color: #15202b // cambiamos el color de fondo por azul
   margin-top 60px
 </style>
