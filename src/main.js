@@ -3,15 +3,14 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-// Bootstrap Library
-import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+// Bootstrap vue
+import './plugins/bootstrapVue'
 
-// Import Bootstrap an BootstrapVue CSS files (order is important)
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+// Vue Font-Awesome
+import './plugins/fontAwesome'
 
-Vue.use(BootstrapVue)
-Vue.use(IconsPlugin)
+// fonts css global
+import './assets/css/main.styl'
 
 Vue.config.productionTip = false
 
@@ -21,7 +20,6 @@ new Vue({
   methods: {
     init () {
       store.dispatch('oauth/getToken', null, { root: true })
-      console.log('hola desde el init 👌')
     }
   },
   created () {

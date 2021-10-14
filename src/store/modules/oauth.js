@@ -14,6 +14,7 @@ export default {
     },
     actions: {
         getToken ({ commit }) {
+            commit('loading/SET_LOADING', true, { root: true })
             oauth.getToken()
                 .then(({ data }) => {
                     commit('SET_ACCESS_TOKEN', data.access_token)
@@ -23,6 +24,7 @@ export default {
                     console.log('Error oauth: ', err)
                 })
                 .finally(() => {
+                    commit('loading/SET_LOADING', false, { root: true })
                     console.log('Done!')
                 })
         }

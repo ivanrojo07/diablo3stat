@@ -1,0 +1,22 @@
+<template>
+    <div class="home-title text-center">
+        <h1 class="my-5 font-diablo">Diablo 3 Profile Search</h1>
+        <p class="lead text-muted">Enter you
+            <em>
+                <a href="https://eu.battle.net/support/es/article/75767"
+                target="_blank" title="Format: YourProfile#1234">
+                battle-tag
+                </a>
+                and select your region to see your profile.
+            </em>
+        </p>
+        <hr class="mt-5">
+    </div>
+</template>
+
+<script>
+export default {
+    name: 'HomeTitle'
+
+}
+</script>
