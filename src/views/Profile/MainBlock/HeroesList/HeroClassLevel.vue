@@ -17,9 +17,6 @@ export default {
       required: true,
       type: Object
     }
-  },
-  created () {
-      console.log(this.hero)
   }
 }
 </script>
