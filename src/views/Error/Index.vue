@@ -59,7 +59,7 @@ export default {
     // Este "guardia de ruta" es invocado justo antes de cambiar de página
     // Es perfecto para limpiar el mensaje de error a través del mixin y liberar memoria
     beforeRouteLeave (to, from, next) {
-        this.setApiErr(null)
+        this.setApiError(null)
         next()
     }
 }
