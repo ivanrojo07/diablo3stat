@@ -1,6 +1,6 @@
 <template>
     <div class="home-title text-center">
-        <h1 class="my-5 font-diablo">Diablo 3 Profile Search</h1>
+        <h1 v-diablo:bone class="my-5 font-diablo">Diablo 3 Profile Search</h1>
         <p class="lead text-muted">Enter you
             <em>
                 <a href="https://eu.battle.net/support/es/article/75767"

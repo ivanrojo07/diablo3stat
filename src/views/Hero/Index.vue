@@ -68,7 +68,7 @@ export default {
                     errObj.data = err.response.data
                     errObj.status = err.response.status
                 }
-                this.setApiErr(errObj)
+                this.setApiError(errObj)
                 this.$router.push({ name: 'Error' })
             })
             .finally(() => {

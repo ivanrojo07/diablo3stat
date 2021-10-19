@@ -12,6 +12,9 @@ import './plugins/fontAwesome'
 // fonts css global
 import './assets/css/main.styl'
 
+// Custom Directives
+import './directives'
+
 Vue.config.productionTip = false
 
 new Vue({

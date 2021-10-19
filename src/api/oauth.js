@@ -1,6 +1,8 @@
 import { post } from 'axios'
-import { API_URL, CLIENT_ID, CLIENT_SECRET } from '../enviroment'
+import { API_URL } from '../enviroment'
 
+const clientId = process.env.VUE_APP_CLIENT_ID
+const clientSecret = process.env.VUE_APP_CLIENT_SECRET
 function getToken () {
     const body = new FormData()
 
@@ -8,7 +10,7 @@ function getToken () {
 
     const config = {
         headers: { 'Content-Type': 'multipart/form-data' },
-        auth: { username: CLIENT_ID, password: CLIENT_SECRET }
+        auth: { username: clientId, password: clientSecret }
     }
     return post(API_URL, body, config)
 }
