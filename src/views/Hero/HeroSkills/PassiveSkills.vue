@@ -22,6 +22,12 @@ export default {
       type: Array,
       required: true
     }
+  },
+  created () {
+    console.log('CREADO!')
+  },
+  destroyed () {
+    console.log('DESTRUIDO!')
   }
 }
 </script>
