@@ -27,6 +27,32 @@ function getApiAccount ({ region, account }) {
     return get(API_URL, { params })
 }
 
+function getApiHero ({ region, account, heroId }) {
+    const resource = `d3/profile/${account}/hero/${heroId}/`
+    const API_URL = `${PROTOCOL}${region}${HOST}${resource}`
+    const locale = locales[region]
+
+    const params = {
+        access_token: store.state.oauth.accessToken,
+        locale
+    }
+    return get(API_URL, { params })
+}
+
+function getApiDetailedHeroItems ({ region, account, heroId }) {
+    const resource = `d3/profile/${account}/hero/${heroId}/items/`
+    const API_URL = `${PROTOCOL}${region}${HOST}${resource}`
+    const locale = locales[region]
+    const params = {
+        access_token: store.state.oauth.accessToken,
+        locale
+    }
+
+    return get(API_URL, { params })
+}
+
 export {
-    getApiAccount
+    getApiAccount,
+    getApiHero,
+    getApiDetailedHeroItems
 }

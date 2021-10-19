@@ -35,7 +35,7 @@ export default {
             type: String,
             required: true
         },
-        icoColoer: {
+        icoColor: {
             type: String,
             required: true
         },
